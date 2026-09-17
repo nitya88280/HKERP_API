@@ -90,8 +90,8 @@ pe (interfaces implement karne ke liye). API sabpe (DI wire-up ke liye).
 
 ```json
 {
-  "userName": "5291",
-  "password": "Nitya@8899",
+  "userName": "xx",
+  "password": "xx",
   "deviceType": "HKERP",
   "ip": "string"
 }
@@ -147,9 +147,9 @@ Agar koi bhi check fail ho: `403 Forbidden` (access nahi / time window ke bahar)
 
 ```json
 {
-  "from": "28-Dec-2025",
-  "to": "31-Dec-2025",
-  "uniqueId": "18169"
+  "from": "xx",
+  "to": "xx",
+  "uniqueId": "xx"
 }
 ```
 
