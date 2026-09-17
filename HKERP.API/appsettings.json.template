@@ -1,0 +1,19 @@
+{
+  "ConnectionStrings": {
+    "HKERPConnection": "Server=YOUR_SERVER_NAME;Database=HKESalesERP;User Id=YOUR_SQL_USERNAME;Password=YOUR_SQL_PASSWORD;TrustServerCertificate=True;"
+  },
+  "SecurityKey": "YOUR_SECURITY_KEY_HERE",
+  "JwtSettings": {
+    "SecretKey": "REPLACE_WITH_A_LONG_RANDOM_SECRET_KEY_MIN_32_CHARS",
+    "Issuer": "HKERP",
+    "Audience": "HKERPUsers",
+    "ExpiryMinutes": 60
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

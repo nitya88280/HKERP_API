@@ -1,0 +1,15 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+
+## appsettings with real secrets - commit sirf template, real file nahi
+HKERP.API/appsettings.json
+!HKERP.API/appsettings.json.template
+
+## IDE
+.vscode/
+*.DotSettings.user
